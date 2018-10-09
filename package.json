@@ -1,0 +1,27 @@
+{
+  "name": "nventoryystem",
+  "version": "1.0.0",
+  "description": "MEAN stack authentication app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "dependencies": {
+    "base-64": "^0.1.0",
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "cors": "*",
+    "express": "*",
+    "jsonwebtoken": "*",
+    "mongoose": "^4.13.5",
+    "multer": "^1.3.0",
+    "passport": "*",
+    "passport-jwt": "*"
+  },
+  "author": "Brad Traversy",
+  "license": "ISC",
+  "devDependencies": {
+    "@angular/cli": "^1.4.9"
+  }
+}
